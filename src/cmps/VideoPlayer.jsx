@@ -1,11 +1,10 @@
-import React from 'react'
 import YouTube from 'react-youtube';
 
-export function EmbeddedVideo({ video }) {
+export function VideoPlayer({ video }) {
 
     const opts = {
-        height: '290',
-        width: '440',
+        height: '600px',
+        width: '100%',
         playerVars: {
             autoplay: 1,
         },
