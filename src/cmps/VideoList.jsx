@@ -5,7 +5,7 @@ export function VideoList({ videos, setCurrVideo }) {
 
 
     return (
-        <div>
+        <div className="video-list">
             {videos.map(video => {
                 return <VideoPreview key={video.id.videoId} video={video} setCurrVideo={setCurrVideo} />
             })}
